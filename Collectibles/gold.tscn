@@ -1,0 +1,61 @@
+[gd_scene load_steps=12 format=3 uid="uid://1ma5yyrvb7gu"]
+
+[ext_resource type="Texture2D" uid="uid://baj70at4drfft" path="res://parallax-industrial-pack/coins/coin_01.png" id="1_olc4a"]
+[ext_resource type="Script" uid="uid://xmweprgcv811" path="res://Collectibles/gold.gd" id="1_yuu1r"]
+[ext_resource type="Texture2D" uid="uid://b27fjdtydfrx4" path="res://parallax-industrial-pack/coins/coin_02.png" id="2_yuu1r"]
+[ext_resource type="Texture2D" uid="uid://bxu18fuu0mdb1" path="res://parallax-industrial-pack/coins/coin_03.png" id="3_giscw"]
+[ext_resource type="Texture2D" uid="uid://3ww82mrtx5yg" path="res://parallax-industrial-pack/coins/coin_04.png" id="4_c8ds1"]
+[ext_resource type="Texture2D" uid="uid://d1dq3x4d3f1p8" path="res://parallax-industrial-pack/coins/coin_05.png" id="5_fdow0"]
+[ext_resource type="Texture2D" uid="uid://p5bgcwwbpaku" path="res://parallax-industrial-pack/coins/coin_06.png" id="6_xhlel"]
+[ext_resource type="Texture2D" uid="uid://ccvwtdp2nw6ag" path="res://parallax-industrial-pack/coins/coin_07.png" id="7_pn083"]
+[ext_resource type="Texture2D" uid="uid://b75k0u8x5dhoe" path="res://parallax-industrial-pack/coins/coin_08.png" id="8_wopun"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xj8c6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_utff4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_olc4a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_yuu1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_giscw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_c8ds1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_fdow0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xhlel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_pn083")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wopun")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}]
+
+[node name="Gold" type="Area2D"]
+script = ExtResource("1_yuu1r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_xj8c6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -7.1525574e-07)
+scale = Vector2(0.39444444, 0.39444447)
+sprite_frames = SubResource("SpriteFrames_utff4")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.8547994
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
