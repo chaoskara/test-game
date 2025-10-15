@@ -1,0 +1,62 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1760459460
+bg.gd::GDScript::4944570604380126261::1760459363::0::1::::<>ParallaxBackground<><>0<>0<><>::
+bg.tscn::PackedScene::5091110250463943794::1760459363::0::1::::<><><>0<>0<><>::uid://kec45rijkfh2::::res://parallax-industrial-pack/layers/skill-desc_0003_bg.png<>uid://ccpgmc5lyuvkn::::res://bg.gd<>uid://brj156j5ke8ol::::res://parallax-industrial-pack/layers/skill-desc_0001_buildings.png<>uid://grvnxd1g7x4::::res://parallax-industrial-pack/layers/skill-desc_0000_foreground.png
+icon.svg::CompressedTexture2D::5561691283774554433::1760459363::1760459462::1::::<><><>0<>0<>fa682d18b5f47c489314c1c0929eb449<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+level.tscn::PackedScene::1516984121753889405::1760459505::0::1::::<><><>0<>0<><>::uid://dqpgmbtgcfoy::::res://Player/player.tscn<>uid://kec45rijkfh2::::res://parallax-industrial-pack/layers/skill-desc_0003_bg.png<>uid://brj156j5ke8ol::::res://parallax-industrial-pack/layers/skill-desc_0001_buildings.png<>uid://grvnxd1g7x4::::res://parallax-industrial-pack/layers/skill-desc_0000_foreground.png<>uid://bytxodbu1tpij::::res://parallax-industrial-pack/decorations/Steampunk Blocks.png<>uid://gpnbt0kutlde::::res://Mobs/enemy.tscn<>uid://1ma5yyrvb7gu::::res://Collectibles/gold.tscn
+menu.gd::GDScript::2729821381119753796::1760459363::0::1::::<>Node2D<><>0<>0<><>::
+menu.tscn::PackedScene::2481217430203886166::1760459363::0::1::::<><><>0<>0<><>::uid://be5l021efwraa::::res://menu.gd<>uid://cesf3vmfdepcc::::res://bg.tscn
+::res://Collectibles/::1760459363
+gold.gd::GDScript::1640459668128020826::1760459363::0::1::::<>Area2D<><>0<>0<><>::
+gold.tscn::PackedScene::1849737339890957400::1760459363::0::1::::<><><>0<>0<><>::uid://baj70at4drfft::::res://parallax-industrial-pack/coins/coin_01.png<>uid://xmweprgcv811::::res://Collectibles/gold.gd<>uid://b27fjdtydfrx4::::res://parallax-industrial-pack/coins/coin_02.png<>uid://bxu18fuu0mdb1::::res://parallax-industrial-pack/coins/coin_03.png<>uid://3ww82mrtx5yg::::res://parallax-industrial-pack/coins/coin_04.png<>uid://d1dq3x4d3f1p8::::res://parallax-industrial-pack/coins/coin_05.png<>uid://p5bgcwwbpaku::::res://parallax-industrial-pack/coins/coin_06.png<>uid://ccvwtdp2nw6ag::::res://parallax-industrial-pack/coins/coin_07.png<>uid://b75k0u8x5dhoe::::res://parallax-industrial-pack/coins/coin_08.png
+::res://Mobs/::1760459363
+enemy.gd::GDScript::5778694762733384838::1760459363::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::452890871884563566::1760459363::0::1::::<><><>0<>0<><>::uid://cmbeo38mkp5qc::::res://parallax-industrial-pack/character/Gangster/Dead.png<>uid://colii11xhh783::::res://Mobs/enemy.gd<>uid://c8g4np4p54368::::res://parallax-industrial-pack/character/Gangster/Idle.png<>uid://c2oecdlha7rpy::::res://parallax-industrial-pack/character/Gangster/Run.png
+::res://parallax-industrial-pack/::1760459364
+license.txt::TextFile::-1::1760459364::0::1::::<><><>0<>0<><>::
+::res://parallax-industrial-pack/character/::1760459364
+rogue spritesheet calciumtrice.png::CompressedTexture2D::7916845542693784147::1760459364::1760459461::1::::<><><>0<>0<>4779df91df7e1e78afd9d80951b07193<>res://.godot/imported/rogue spritesheet calciumtrice.png-0c14edb86868b9d1b179f5820418c921.ctex::
+::res://parallax-industrial-pack/character/Character/::1760459364
+Attack_1.png::CompressedTexture2D::4159578621182575266::1760459363::1760459462::1::::<><><>0<>0<>5d7ef65c86f330e4d500310a3ea11492<>res://.godot/imported/Attack_1.png-c958863f2907efe78fbe06fa4761689c.ctex::
+Attack_2.png::CompressedTexture2D::2050700253411842262::1760459363::1760459462::1::::<><><>0<>0<>7711969eceade0a356a103872c2a97b7<>res://.godot/imported/Attack_2.png-d71536466a9e876a8a40b8ddef7a5f8d.ctex::
+Attack_3.png::CompressedTexture2D::6440140793200055108::1760459363::1760459462::1::::<><><>0<>0<>e419d8e253b5af102817a3a7ed69c734<>res://.godot/imported/Attack_3.png-c9806659adeaea6fd986abedee3bb99c.ctex::
+Dead.png::CompressedTexture2D::5145795911732080452::1760459363::1760459462::1::::<><><>0<>0<>dae7e6ba618981ac1eeafd572defbefd<>res://.godot/imported/Dead.png-2eef08900b6544e57dfe465b6b0bb5ac.ctex::
+Hurt.png::CompressedTexture2D::3681402554118174366::1760459363::1760459462::1::::<><><>0<>0<>703677c6b4a5ca4271b707084a0c7761<>res://.godot/imported/Hurt.png-93dd2245adaed4785f5979842d4bdf3c.ctex::
+Idle.png::CompressedTexture2D::4734785771858131219::1760459363::1760459462::1::::<><><>0<>0<>70c8dcc7d5aa7d2babde11961a4438a6<>res://.godot/imported/Idle.png-8d281fd5e9d7967c4c5a99617cfd9cf3.ctex::
+Idle_2.png::CompressedTexture2D::1875098519835332324::1760459363::1760459462::1::::<><><>0<>0<>49c7c68e16e468b7542b589c68a4e574<>res://.godot/imported/Idle_2.png-c4d1a1a4d7748b062bfa028a61aa26a2.ctex::
+Jump.png::CompressedTexture2D::3536229743116412::1760459363::1760459462::1::::<><><>0<>0<>4bf6044fc13f4bc0105c4efda24987a1<>res://.godot/imported/Jump.png-cf4bdb864783214a0647814a0c165f73.ctex::
+Run.png::CompressedTexture2D::5946702167696676211::1760459363::1760459462::1::::<><><>0<>0<>a99bcc71f9abe6aa74f690aca4f03c73<>res://.godot/imported/Run.png-c542a58e1479a07d02950e85c56889eb.ctex::
+Walk.png::CompressedTexture2D::3847597646117391437::1760459364::1760459462::1::::<><><>0<>0<>3721f2fb198bc7879fff4a0ed8688e37<>res://.godot/imported/Walk.png-95cf41e054910dc5249c5c1b159c9a7d.ctex::
+::res://parallax-industrial-pack/character/Gangster/::1760459364
+Attack.png::CompressedTexture2D::3896654986220921025::1760459364::1760459462::1::::<><><>0<>0<>d29f99a46f499c7598f14ab3e3e2f9a7<>res://.godot/imported/Attack.png-2ad7735342ca4a30eabfe6aacfdcc05f.ctex::
+Dead.png::CompressedTexture2D::5617441260073947890::1760459364::1760459462::1::::<><><>0<>0<>186b0a1ddce0a546ebe6da6ce33a4212<>res://.godot/imported/Dead.png-696be94ef136494eb5e2beb8a9f0d355.ctex::
+Hurt.png::CompressedTexture2D::3636919289430157212::1760459364::1760459462::1::::<><><>0<>0<>46e78690a97c4d4c31a8525542f87cd1<>res://.godot/imported/Hurt.png-d06c81a1b8660ba90d2ec7f440b4b2fa.ctex::
+Idle.png::CompressedTexture2D::7103244315448995479::1760459364::1760459462::1::::<><><>0<>0<>f00bde7da144b1ec39975fafa480f3b1<>res://.godot/imported/Idle.png-1083876fc1fcd014b59b72b0d228ccb9.ctex::
+Idle_2.png::CompressedTexture2D::4954601910308695048::1760459364::1760459462::1::::<><><>0<>0<>99eeadbfdd72755cad74e6897a50743e<>res://.godot/imported/Idle_2.png-aa89c300acaa9ac679b467261f05f25c.ctex::
+Jump.png::CompressedTexture2D::6275076441832177502::1760459364::1760459462::1::::<><><>0<>0<>4dbda5e76d9577d19532b0d18692d2da<>res://.godot/imported/Jump.png-e515678fcde8e6aa931f568180de157e.ctex::
+Recharge.png::CompressedTexture2D::93813968354382596::1760459364::1760459462::1::::<><><>0<>0<>ac8bcfb075d3fdda20efbaf08d3a253d<>res://.godot/imported/Recharge.png-994f6d54bc1bfe56c7a59302d05230bd.ctex::
+Run.png::CompressedTexture2D::6697088048611013882::1760459364::1760459462::1::::<><><>0<>0<>ca9ab2c4b6b5814390b89696ab190448<>res://.godot/imported/Run.png-95be4db56a4762d8bb6c0cf723ba881a.ctex::
+Shot.png::CompressedTexture2D::4798697001707015079::1760459364::1760459462::1::::<><><>0<>0<>c21bab1ad5d6a4d3be6069cee75acbde<>res://.godot/imported/Shot.png-a84e65ef40248ce4478cb8f4312b2c24.ctex::
+Walk.png::CompressedTexture2D::848338433443239728::1760459364::1760459461::1::::<><><>0<>0<>23f92ad691f20cd7fda8aa723c23e1f9<>res://.godot/imported/Walk.png-d10558ed330f2c19706db5eb4a836168.ctex::
+::res://parallax-industrial-pack/coins/::1760459364
+coin_01.png::CompressedTexture2D::2406987702769382633::1760459364::1760459461::1::::<><><>0<>0<>4e1f32505026e90dfc4eed0349516478<>res://.godot/imported/coin_01.png-4f74a7197b8d982061481f0434ae51c6.ctex::
+coin_02.png::CompressedTexture2D::4347899395174875143::1760459364::1760459461::1::::<><><>0<>0<>3e998a177f93b73657ce0c7b9b1db5f0<>res://.godot/imported/coin_02.png-cb773598fee19c245e51e1c3dc84df86.ctex::
+coin_03.png::CompressedTexture2D::4043689509915262136::1760459364::1760459461::1::::<><><>0<>0<>f82f14230c075117f336f7fec96c07c8<>res://.godot/imported/coin_03.png-33e00006d45be65bd8b13a366fcb6810.ctex::
+coin_04.png::CompressedTexture2D::2012100074960784566::1760459364::1760459461::1::::<><><>0<>0<>909a25af45861280f04156a474f1453f<>res://.godot/imported/coin_04.png-c01028920e8cff801f97b93d3f39ef10.ctex::
+coin_05.png::CompressedTexture2D::8991387846054257167::1760459364::1760459461::1::::<><><>0<>0<>b7231d0dfa1f5cea8d45f2820b1d94e0<>res://.godot/imported/coin_05.png-aae2ffdf9a152a2792848187de85670e.ctex::
+coin_06.png::CompressedTexture2D::1114835558982377904::1760459364::1760459461::1::::<><><>0<>0<>2754fd464ce034e9b743c2e3415d7fcc<>res://.godot/imported/coin_06.png-30b0c4dc3c0e16b99c97b314a1408cbe.ctex::
+coin_07.png::CompressedTexture2D::4957940873409723426::1760459364::1760459461::1::::<><><>0<>0<>3313f398f63969af95a1d44092ecd961<>res://.godot/imported/coin_07.png-e1c53a2a23831f859177d85e8fb98714.ctex::
+coin_08.png::CompressedTexture2D::4695047930037997588::1760459364::1760459462::1::::<><><>0<>0<>5d7a5c5ac256a44be5bfeac5452e601d<>res://.godot/imported/coin_08.png-e8faf8c3ee75edb8c6da41c59dcbb824.ctex::
+::res://parallax-industrial-pack/decorations/::1760459364
+Steampunk Blocks.png::CompressedTexture2D::4111597760340383693::1760459364::1760459462::1::::<><><>0<>0<>965ee75eead2ac8a51aa9491a33d97c2<>res://.godot/imported/Steampunk Blocks.png-5499ff58026d31c698fb980dac1fe786.ctex::
+Steampunk Brick Back.png::CompressedTexture2D::7697725690286619520::1760459364::1760459462::1::::<><><>0<>0<>490e90502058c52935e6c235dc553374<>res://.godot/imported/Steampunk Brick Back.png-8555d69c6a59f09ff5b6d8a02e99717a.ctex::
+Steampunk Corse Elements Dark.png::CompressedTexture2D::3814987778760264624::1760459364::1760459462::1::::<><><>0<>0<>4f785bb75c8cb74c323c8c203c392054<>res://.godot/imported/Steampunk Corse Elements Dark.png-8c82fdfb726fff22dfe7dd31748ff7b5.ctex::
+Steampunk Corse Elements.png::CompressedTexture2D::8923581115810264456::1760459364::1760459462::1::::<><><>0<>0<>ec5b200b90b319b84fa5c60d605204cf<>res://.godot/imported/Steampunk Corse Elements.png-5f6715eb14b5c6d38d28f97b63eb5977.ctex::
+::res://parallax-industrial-pack/layers/::1760459364
+skill-desc_0000_foreground.png::CompressedTexture2D::13456675578769435::1760459364::1760459462::1::::<><><>0<>0<>a863d26f0f89ac0e5b38a6ceccd9ba66<>res://.godot/imported/skill-desc_0000_foreground.png-b2203401c80635690a62d598ecfb3192.ctex::
+skill-desc_0001_buildings.png::CompressedTexture2D::3599844284458980651::1760459364::1760459462::1::::<><><>0<>0<>ef0a0e39fb3b948ace5e06ed51255336<>res://.godot/imported/skill-desc_0001_buildings.png-1015f7f1b72135a34f5e37e5fe9bd4e5.ctex::
+skill-desc_0002_far-buildings.png::CompressedTexture2D::7640433487910601147::1760459364::1760459462::1::::<><><>0<>0<>339cbcafd774a3dee9fd8de59c0831eb<>res://.godot/imported/skill-desc_0002_far-buildings.png-a30e3afc7b3275bba4c272451be04d21.ctex::
+skill-desc_0003_bg.png::CompressedTexture2D::710320771743426749::1760459364::1760459462::1::::<><><>0<>0<>1d0b202476d6e98c34f1adbae61add23<>res://.godot/imported/skill-desc_0003_bg.png-8cdbc1baff4e6b4783a4e812e0dc37d5.ctex::
+::res://Player/::1760459363
+player.gd::GDScript::4937736537424421444::1760459363::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::244518677330362008::1760459363::0::1::::<><><>0<>0<><>::uid://ccl42gcajctcu::::res://Player/player.gd<>uid://byig2vft03y::::res://parallax-industrial-pack/character/Character/Jump.png<>uid://b8pth21b3ycsh::::res://parallax-industrial-pack/character/Character/Idle.png<>uid://cqyvk0fjarmcx::::res://parallax-industrial-pack/character/Character/Run.png
